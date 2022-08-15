@@ -8,7 +8,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description:  'Bastelbunkers Dokumentation',
+  description: 'Bastelbunkers Dokumentation',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -35,37 +35,13 @@ module.exports = {
     //nav: [],
     sidebar: [
       {
-        title: 'Pixel It',   // required
-        path: '/pixelit',      // optional, link of the title, which should be an absolute path and must exist
-        collapsable: true, // optional, defaults to true
-        sidebarDepth: 1,    // optional, defaults to 1
-        children: [
-          '/pixelit/',
-          '/pixelit/firmware',
-          '/pixelit/hardware',
-          '/pixelit/webinterface',
-          '/pixelit/api',
-          '/pixelit/tools',
-        ]
-      },
-      {
-        title: 'ioBroker PixelIt',   // required
-        path: '/ioBroker_pixelit',      // optional, link of the title, which should be an absolute path and must exist
-        collapsable: true, // optional, defaults to true
-        sidebarDepth: 1,    // optional, defaults to 1
-        children: [      
-          'ioBroker_pixelit/',
-          'ioBroker_pixelit/options',             
-        ]
-      },
-      {
         title: 'ioBroker Seq',   // required
         path: '/ioBroker_seq',      // optional, link of the title, which should be an absolute path and must exist
         collapsable: true, // optional, defaults to true
         sidebarDepth: 1,    // optional, defaults to 1
         children: [
-          '/ioBroker_seq/',   
-          '/ioBroker_seq/options',        
+          '/ioBroker_seq/',
+          '/ioBroker_seq/options',
         ]
       },
       {
@@ -74,7 +50,7 @@ module.exports = {
         collapsable: true, // optional, defaults to true
         sidebarDepth: 1,    // optional, defaults to 1
         children: [
-          '/ioBroker_traccar/',          
+          '/ioBroker_traccar/',
         ]
       },
     ]
@@ -88,7 +64,7 @@ module.exports = {
     '@vuepress/plugin-medium-zoom',
     'vuepress-plugin-smooth-scroll',
     '@vuepress/back-to-top',
-    ['vuepress-plugin-code-copy', {staticIcon: true}],
-    ['vuepress-plugin-matomo', {'siteId': 8,'trackerUrl': "https://matomo.dietru.de/"}],
+    ['vuepress-plugin-code-copy', { staticIcon: true }],
+    ['vuepress-plugin-matomo', { 'siteId': 8, 'trackerUrl': "https://matomo.dietru.de/" }],
   ]
 }

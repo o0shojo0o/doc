@@ -27,8 +27,8 @@ tagline: Die Dokumentationen
 </style>
 
 <p style="text-align:center">    
-    <a href="/pixelit" class="mybutton">
-        Pixel It
+    <a href="https://pixelit-project.github.io/" class="mybutton">
+        Pixel It (external link)
     </a>  
 </p>
 
@@ -39,7 +39,7 @@ tagline: Die Dokumentationen
     <a href="/ioBroker_traccar" class="mybutton">
         ioBroker Traccar
     </a>  
-     <a href="/ioBroker_pixelit" class="mybutton">
-        ioBroker PixelIt
+     <a href="https://pixelit-project.github.io/iobroker.html" class="mybutton">
+        ioBroker PixelIt (external link)
     </a> 
 </p>
